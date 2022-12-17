@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* NAV */
+
+.nav-container {
+  font-size: 2rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: "Rubik Vinyl", cursive;
+  color: rgb(184, 17, 17);
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.navbar-brand:active {
+  color: black;
+}
+
+.logo {
+  width: 100px;
+}
+
+@media screen and (min-width: 575px) {
+  .logo {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .landing-coffee {
+    width: 28rem;
+  }
+
+  .logo {
+    width: 100px;
+  }
+}
+
+.landing-coffee {
+  border-radius: 40px;
+}
+/* LANDING/INTRO */
+
+.col-coffee {
+  text-align: center;
+}
+
+.col-text {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10rem;
+  font-family: "Rubik Spray Paint", cursive;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.landing {
+  background-color: #f1d3b3;
+  padding: 2rem;
+}
+
+.motivate {
+  margin-bottom: 4rem;
+}
+
+.landing-img {
+  margin: 15px;
+  border-radius: 40px;
+}
+/* TESTIMONIALS */
+.testimonial-image {
+  width: 45%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ffadbca8;
+  color: white;
+  padding: 3rem;
+}
+
+#press {
+  background-color: #f78f7f;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 3vw;
+  height: 3vw;
+}
+
+/* PRICING */
+
+.cards {
+  margin-top: 2rem;
+}
+
+.free {
+  height: 17.55rem;
+}
+
+.card-header {
+  color: rgb(168, 27, 51);
+}
+
+
+/* FEATURES */
+
+.features{
+  padding: 10rem;
+}
+
+.feature{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+i{
+  color: rgb(205, 157, 218);
+}
+
+/* JS */
+
+.hovered{
+  opacity: 0.5;
+  color: red;
+}

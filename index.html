@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/155d7be690.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/style.css" />
+  <body>
+    <!-- NAV -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand" href="#">Delicia Coffee</a>
+        <img src="img/coffee-cup.png" class="logo" alt="" />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- LANDING  -->
+
+    <div class="row landing">
+      <div class="col col-coffee col-lg-6">
+        <img
+          src="img/landing-coffee.jpg"
+          class="landing-coffee"
+          width="650px"
+          alt=""
+        />
+      </div>
+
+      <div class="col col-text col-lg-6">
+        <p>More than just coffee.</p>
+        <p class="motivate">
+          Find out why we are your best choice for a morning wake-up.
+        </p>
+        <img src="img/news.jpg" class="landing-img" width="300px" alt="" />
+        <img src="img/seeds.jpg" class="landing-img" width="300px" alt="" />
+        <img src="img/tablet.jpg" class="landing-img" width="300px" alt="" />
+      </div>
+    </div>
+
+    <!-- FEATURES -->
+
+    <div class="row features">
+      <div class="col-md-4 feature">
+        <i class="fa-solid fa-circle-check icon fa-5x"></i>
+        <h3>More than fair pricing.</h3>
+      </div>
+      <div class="col-md-4 feature">
+        <i class="fa-solid fa-right-to-bracket fa-5x"></i>
+        <h3>If unsatisfied, money-back guarantee.</h3>
+      </div>
+      <div class="col-md-4 feature">
+        <i class="fa-regular fa-thumbs-up fa-5x"></i>
+        <h3>Overwhelmingly positive reviews.</h3>
+      </div>
+    </div>
+
+    <!-- Testimonials (CAROUSEL) -->
+    <section id="testimonials">
+      <div
+        id="TestimonialCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        pause="hover"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="999999">
+            <h2>
+              I can attest that both the coffee and staff were top-notch. They
+              made a regular out of me, that's for sure!
+            </h2>
+            <img
+              src="/img/angela.jpg"
+              class="testimonial-image"
+              alt="dog-profile"
+            />
+            <p>Angela, New York</p>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="999999">
+            <h2>
+              I had no idea my colleagues would enjoy the Black Expresso so
+              much, but they begged me to come again soon!
+            </h2>
+            <img
+              class="testimonial-image"
+              src="/img/james.jpg"
+              alt="lady-profile"
+            />
+            <p>James, Illinois</p>
+          </div>
+          <div class="carousel-item" data-bs-interval="999999">
+            <h2>
+              As a student, I can't stress enough how much Delicia Coffee is
+              part of my success in my studies. They also offer a free cookie!
+            </h2>
+            <img
+              class="testimonial-image"
+              src="/img/maria.jpg"
+              alt="lady-profile"
+            />
+            <p>Maria, Sweden</p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#TestimonialCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#TestimonialCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <h3>Wish to become a regular?</h3>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center cards">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm free">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $0<small class="text-muted fw-light">/mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Any number of coffees</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+              Sign up for free
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Hard-worker</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $15<small class="text-muted fw-light">/mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Special Discounts on every brand</li>
+              <li>1 free coffee/month</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">
+              Get started
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 border-primary">
+            <h4 class="my-0 fw-normal">Master</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+              $29<small class="text-muted fw-light">/mo</small>
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Special discounts on every brand</li>
+              <li>5 free coffees/month</li>
+              <li></li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">
+              Contact us
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
